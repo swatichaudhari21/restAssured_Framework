@@ -36,7 +36,7 @@ public class put_tc1 {
 			
 		}
 		CommonMethodUtilities.evidenceFileCreator("put_tc1", requestbody, responsebody);
-		Assert.assertEquals(responsestatuscode, 200);
+		Assert.assertEquals =(responsestatuscode , 200);
 	}
 	public static void responsebodyValidator(String responsebody)
 	{
